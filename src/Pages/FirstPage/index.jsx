@@ -1,11 +1,9 @@
 import React from 'react'
-import Banner from 'Components/Banner'
+import Posts from 'Components/Posts'
+
 
 export default function FirstPage() {
   return (
-    <main>
-      <Banner/>
-      <h1>Olá Mundo</h1>
-    </main>
+    <Posts/>
   )
 }
