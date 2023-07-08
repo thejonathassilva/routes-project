@@ -1,4 +1,4 @@
-.navegacao {
+.navegation {
   height: 112px;
   display: flex;
   justify-content: center;
@@ -6,14 +6,8 @@
   column-gap: 3rem;
 }
 
-.link {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  color: var(--cor-fonte-principal);
-}
-
 @media (max-width: 744px) {
-  .navegacao {
+  .navegation {
       height: 72px;
   }
 }
