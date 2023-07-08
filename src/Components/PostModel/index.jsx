@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './PostModel.module.css'
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 import './Post.css'
 
 export default function PostModel({ coverPhoto, title, children }) {
@@ -17,11 +16,7 @@ export default function PostModel({ coverPhoto, title, children }) {
       </h2>
 
       <div className={styles.postContentContainer}>
-        <div className="post-markdown-container">
-          <ReactMarkdown>
-            {children}
-          </ReactMarkdown>
-        </div>
+        {children}
       </div>
     </article>
   )

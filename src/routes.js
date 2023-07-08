@@ -17,9 +17,9 @@ function AppRoutes() {
         <Route path="/" element={<DefaultPage />}>
           <Route path="" element={<FirstPage />} />
           <Route path="sobre-mim" element={<AboutMe />} />
-          <Route path="post/:id" element={<Post />} />
         </Route>
 
+        <Route path="post/:id" element={<Post />} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
       
